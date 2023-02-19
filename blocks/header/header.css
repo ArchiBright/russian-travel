@@ -1,0 +1,6 @@
+.header {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 95% 1fr 1fr;
+}

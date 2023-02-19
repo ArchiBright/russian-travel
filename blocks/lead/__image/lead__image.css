@@ -1,0 +1,6 @@
+.lead__image {
+    margin: auto;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
