@@ -1,0 +1,8 @@
+.cover {
+    display: grid;
+    margin: auto;
+    max-width: 1184px;
+    max-height: 740px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+}

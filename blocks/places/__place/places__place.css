@@ -1,0 +1,12 @@
+.places__place {
+    max-width: 984px;
+    max-height: 660px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "title website"
+    "image paragraph"
+    "image paragraph";
+    gap: 2rem;
+}

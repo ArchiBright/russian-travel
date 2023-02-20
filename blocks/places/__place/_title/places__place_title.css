@@ -1,0 +1,8 @@
+.places__place_title {
+    margin: auto auto auto 0;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFFF;
+}

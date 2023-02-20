@@ -22,6 +22,12 @@
 
 @import url(/blocks/places/places.css);
 @import url(/blocks/places/__place/places__place.css);
+@import url(/blocks/places/__place/_image/places__places_image.css);
+@import url(/blocks/places/__place/_paragraph/places__place_paragraph.css);
+@import url(/blocks/places/__place/_title/places__place_title.css);
+@import url(/blocks/places/__place/_website/places__place_website.css);
+@import url(/blocks/places/__place/_website/places__place_website_url-heading.css);
+@import url(/blocks/places/__place///_website/places__place_website_url-link.css);
 
 @import url(/blocks/cover/cover.css);
 @import url(/blocks/cover/__background/cover__background.css);
@@ -33,8 +39,8 @@
 @import url(/blocks/footer/__copyright/footer__copyright.css);
 @import url(/blocks/footer/__link/footer__link.css);
 
-@import url(/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+@import url(/fonts/Inter/Inter.ttf);
 @font-face {
     font-family: 'Inter';
-    src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(../fonts/Inter/Inter.ttf);
 }

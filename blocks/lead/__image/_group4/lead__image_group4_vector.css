@@ -1,0 +1,8 @@
+.lead__image_group4_vector {
+    background-image: url(../../../Group4/Vector\ 2.8\ \(Stroke\).png);
+}
+
+.lead__image_group4_vector:hover {
+    color: blue;
+    z-index: 2;
+}
