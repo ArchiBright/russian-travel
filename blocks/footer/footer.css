@@ -1,0 +1,8 @@
+.footer {
+    width: 90%;
+    max-width: 1184px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, min-content) 1fr;
+    gap: 18px;
+}

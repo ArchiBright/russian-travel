@@ -7,6 +7,8 @@
     line-height: 22px;
     color: #FFFF;
     text-align: center;
+    justify-self: center;
     grid-row: 2;
-    grid-area: image;
+    grid-column: 1;
+    z-index: 2;
 }

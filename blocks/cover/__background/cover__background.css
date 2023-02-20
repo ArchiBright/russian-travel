@@ -1,5 +1,8 @@
 .cover__background {
-    width: 100%;
-    grid-row: 1;
-    grid-column: 1;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 100%;
+    height: 740px;
+    background-size: cover;
+    background-image: url(../../../images/cover-trains.jpg);
 }
