@@ -1,4 +1,5 @@
 .lead__title {
+    color: #FFFFFF !important;
     font-family: 'Inter';
     max-width: 720px;
     max-height: 200px;
@@ -6,16 +7,42 @@
     margin: auto;
     font-weight: 900;
     font-size: 96px;
-    text-align: center;
     line-height: 100px;
+    text-align: center;
     margin-bottom: 32px;
-    color: #FFFFFF;
 }
 
-/* @media screen and (min-width: 320px) {
+@media (max-width: 320px) {
     .lead__title {
         min-width: 288px;
         min-height: 88px;
+        font-size: 40px;
+        line-height: 44px;
     }
-} */
+}
 
+
+/* Основной код для разрешения 1024px */
+@media screen and (min-width: 2560px) {
+    /* стили для больших мониторов с разрешением 4K */
+}
+@media screen and (min-width: 1440px) {
+    /* стили для больших настольных компьютеров и ноутбуков */
+}
+@media screen and (max-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+}
+@media screen and (max-width: 425px) {
+    /* стили для широкого смартфона */
+}
+@media screen and (max-width: 375px) {
+    /* стили для среднего смартфона */
+}
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+} 
+
+/* not all this i need */

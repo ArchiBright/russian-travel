@@ -1,6 +1,4 @@
 .lead__image {
     margin: auto;
-    display: flex;
-    flex-direction: column;
     max-width: 100%;
 }

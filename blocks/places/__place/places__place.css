@@ -3,10 +3,15 @@
     max-height: 660px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas:
-    "title website"
-    "image paragraph"
-    "image paragraph";
+    grid-template-rows: repeat(2, 1fr);
     gap: 2rem;
 }
+
+@media (max-width: 720px) {
+    .places__place {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+} 

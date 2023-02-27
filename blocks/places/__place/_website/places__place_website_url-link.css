@@ -1,8 +1,12 @@
 .places__place_website_url-link {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-decoration: underline;
+}
+
+.places__place_website_url-link:hover {
+    opacity: .8;
 }

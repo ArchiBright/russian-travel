@@ -2,7 +2,7 @@
     justify-self: end;
     align-self: center;
     font-family: 'Inter';
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
