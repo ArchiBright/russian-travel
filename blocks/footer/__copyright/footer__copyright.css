@@ -7,3 +7,9 @@
     font-size: 16px;
     line-height: 18px;
 }
+
+@media (max-width: 450px) {
+    .footer__copyright {
+        justify-self: start;
+    }
+}

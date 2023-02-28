@@ -3,7 +3,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     width: 560px;
     height: 152px;
     text-align: center;
@@ -13,4 +13,13 @@
     justify-self: center;
     align-self: flex-end;
     margin: 0 auto 0;
+}
+
+@media (max-width: 450px) {
+    .cover__title {
+        min-width: 288px;
+        min-height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

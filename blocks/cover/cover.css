@@ -2,7 +2,6 @@
     display: flex;
     margin: auto;
     max-width: 1184px;
-    max-height: 740px;
-    /* width: 100%; */
-    /* box-sizing: border-box; */
+    /* max-height: 740px; */
+    margin-bottom: 92px;
 }

@@ -11,7 +11,7 @@
     color: #FFFF !important;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
     .lead__subtitle {
         min-width: 288px;
         min-height: 40px;

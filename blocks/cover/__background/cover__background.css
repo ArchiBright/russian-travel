@@ -5,11 +5,6 @@
     text-decoration: none;
   }
   
-  /* @media (max-width: 640px) {
-    .cover__background {
-      padding: 40px 20px;
-    }
-  } */
   
 .cover__background:before {
     content: '';
