@@ -8,7 +8,7 @@
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 560px) {
     .footer {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, min-content) 1fr;

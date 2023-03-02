@@ -7,6 +7,15 @@
     color: #FFFF !important;
 }
 
+@media (max-width: 787px) {
+    .places__place_title {
+        min-width: 288px;
+        min-height: 35px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
 @media (max-width: 450px) {
     .places__place_title {
         min-width: 288px;

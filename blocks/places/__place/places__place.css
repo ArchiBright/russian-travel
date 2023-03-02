@@ -1,9 +1,9 @@
 .places__place {
-    max-width: 984px;
-    max-height: 660px;
+    width: fit-content;
+    height: fit-content;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
     gap: 2rem;
 }
 
@@ -11,7 +11,7 @@
     margin-bottom: 92px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 520px) {
     .places__place {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
