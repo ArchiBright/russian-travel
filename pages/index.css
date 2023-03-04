@@ -27,9 +27,10 @@
 @import url(/blocks/place/__paragraph/places__place_paragraph.css);
 @import url(/blocks/place/__paragraphs/places__place__paragraphs.css);
 @import url(/blocks/place/__title/places__title.css);
-@import url(/blocks/place/__website/places__place_website.css);
-@import url(/blocks/place/__website/places__place_website_url-heading.css);
-@import url(/blocks/place/__website/places__place_website_url-link.css);
+@import url(/blocks/place/__website/place__website-url-heading.css);
+@import url(/blocks/place/__website/place__website-url-link.css);
+@import url(/blocks/place/__websites/place__websites.css);
+
 
 
 @import url(/blocks/cover/cover.css);
