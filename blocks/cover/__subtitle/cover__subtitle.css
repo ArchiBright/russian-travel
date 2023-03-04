@@ -18,9 +18,11 @@
 
 @media (max-width: 450px) {
     .cover__subtitle {
-        min-width: 288px;
-        min-height: 48px;
+        width: 288px;
+        height: 48px;
         font-size: 14px;
         line-height: 16px;
+        margin-top: 0;
+        display: inline-block;
     }
 }
