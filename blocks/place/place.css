@@ -1,20 +1,20 @@
-.places__place {
+.place {
     width: fit-content;
     height: fit-content;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, fit-content);
     gap: 2rem;
-    grid-auto-flow: dense;
-    box-sizing: border-box;
+    /* grid-auto-flow: dense; */
+    /* box-sizing: border-box; */
 }
 
-.places__place:last-of-type {
+.place:last-of-type {
     margin-bottom: 92px;
 }
 
 @media (max-width: 520px) {
-    .places__place {
+    .place {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         max-width: fit-content;
