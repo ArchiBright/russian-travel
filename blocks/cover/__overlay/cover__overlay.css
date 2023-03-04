@@ -1,11 +1,9 @@
 .cover__overlay {
     width: 100%;
-    height: 100%;
     grid-column: 1/2;
     grid-row: 1/3;
 }
 
 .cover__overlay:hover {
     opacity: .6;
-    color: red;
 }

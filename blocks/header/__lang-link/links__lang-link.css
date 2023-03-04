@@ -4,7 +4,6 @@
     margin-top: 46px;
     margin-right: 18px;
     width: 30px;
-    height: 28px;
     font-family: 'Inter';
     color: #FFFFFF;
     font-weight: 400;
@@ -20,7 +19,6 @@
 @media (max-width: 450px) {
     .header__lang-link {
         width: 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
     }

@@ -16,7 +16,6 @@
 @media (min-width: 936px) {
     .cover__title {
         width: 560px;
-        height: 152px;
     }
 } 
 
@@ -31,7 +30,6 @@
 @media (max-width: 500px) {
     .cover__title {
         width: 288px;
-        height: 70px;
         font-size: 32px;
         line-height: 35px;
     }

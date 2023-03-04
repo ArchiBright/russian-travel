@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 
@@ -43,10 +44,3 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
-
-
-
-@font-face {
-    font-family: 'Inter';
-    src: url(../fonts/Inter/Inter.ttf);
-}
