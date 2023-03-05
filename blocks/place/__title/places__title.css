@@ -10,7 +10,6 @@
 @media (max-width: 787px) {
     .place__title {
         min-width: 288px;
-        min-height: 35px;
         font-size: 42px;
         line-height: 46px;
     }
@@ -19,7 +18,6 @@
 @media (max-width: 450px) {
     .place__title {
         min-width: 288px;
-        min-height: 35px;
         font-size: 32px;
         line-height: 35px;
     }
